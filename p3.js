@@ -11,4 +11,4 @@ function getArrayDepth(array) {
     return levels;
 }
 let testRy = [1, 2, [3, 4, [5, 6], 7, [8, [9, 91]], 10], 11, 12]
-console.log(getArrayDepth(testRy));
+console.log(getArrayDepth(testRy));//p3

@@ -33,4 +33,4 @@ function mixByUid(array1,array2){
     });
     return list
 };
-console.log(mixByUid(personData,additionalPersonData));
+console.log(mixByUid(personData,additionalPersonData));//p5
