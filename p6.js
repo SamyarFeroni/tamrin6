@@ -27,40 +27,40 @@ function creat(Obj) {
 
 
 
-// function containsDuplicates(array) {
-//     const result = array.some(element => {
-//         if (array.indexOf(element) !== array.lastIndexOf(element)) {
-//             return true;
-//         }
+function containsDuplicates(array) {
+    const result = array.some(element => {
+        if (array.indexOf(element) !== array.lastIndexOf(element)) {
+            return true;
+        }
 
-//         return false;
-//     });
-
-
-//     let chek = containsDuplicates(array);
-//     if (chek) {
-//         return 'error'
-//     } else {
-//         result.push(personData);
-//         console.log(result)
-//         return true
-//     };
-// };
+        return false;
+    });
 
 
-
-
-// function update(Obj) {
-
-// };
+    let chek = containsDuplicates(array);
+    if (chek) {
+        return 'error'
+    } else {
+        result.push(personData);
+        console.log(result)
+        return true
+    };
+};
 
 
 
 
+function update(Obj) {
 
-// function Delete(uid) {
+};
 
-// };
+
+
+
+
+function Delete(uid) {
+
+};
 
 
 
